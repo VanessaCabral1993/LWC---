@@ -1,0 +1,24 @@
+<template>
+    <lightning-card title="Detalhes da Empresa">
+        <div class="slds-grid slds-wrap slds-gutters">
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Primeiro Nome" value={inputValues.primeiroNome} onchange={handleInputChange} data-inputname="primeiroNome"></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Sobrenome" value={inputValues.sobrenome} onchange={handleInputChange} data-inputname="sobrenome"></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Email" type="email" value={inputValues.email} onchange={handleInputChange} data-inputname="email"></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Website" type="url" value={inputValues.website} onchange={handleInputChange} data-inputname="website"></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Empresa" value={inputValues.empresa} onchange={handleInputChange} data-inputname="empresa"></lightning-input>
+            </div>
+            <div class="slds-col slds-size_1-of-2">
+                <lightning-input label="Receita Anual" type="number" value={inputValues.receitaAnual} onchange={handleInputChange} data-inputname="receitaAnual"></lightning-input>
+            </div>
+        </div>
+    </lightning-card>
+</template>
