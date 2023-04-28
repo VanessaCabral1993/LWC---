@@ -1,0 +1,20 @@
+.slds-card {
+    margin: 20px;
+    padding: 20px;
+  }
+  
+  .slds-input {
+    margin-bottom: 20px;
+  }
+  
+  .slds-col {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .slds-col {
+      width: 100%;
+    }
+  }
+  
